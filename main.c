@@ -36,7 +36,6 @@ int main(){
 
         fgets(buffer, 1000, stdin); // overwrites the buffer code everytime
 
-        // Consume the newline character.
         if (strlen(buffer) > 0) {
             buffer[strlen(buffer) - 1] = '\0';
         }
